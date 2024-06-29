@@ -1,0 +1,154 @@
+.App {
+  text-align: center;
+
+}
+
+
+.background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-top: 30px;
+  transition: background-color 0.3s ease;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.header.scrolled {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding-top: 15px;
+
+}
+
+main {
+  padding-top: 100px;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.headerButtons {
+  padding-right: 11%;
+  font-family: 'Cabinet Grotesk';
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.FooterPages {
+  color: #FFFFFF;
+  font-family: 'Cabinet Grotesk';
+  font-size: 29px;
+  cursor: pointer;
+}
+
+.FooterPages:hover {
+  text-decoration: underline;
+  text-decoration-color: #FFFFFF;
+}
+
+.headerButton {
+  background-color: #4628FF;
+  font-family: 'Cabinet Grotesk';
+  font-size: 20px;
+  color: #FFFFFF;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.headerButton:hover {
+  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
+  animation: moveUp 0.3s forwards;
+}
+
+.headerButtons:hover {
+
+  font-weight: bolder;
+  color: #4628FF;
+
+}
+
+.rotating-sphere {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 1200vw;
+}
+
+.sphere-image {
+
+  width: 57vw;
+  object-fit: 'contain';
+  justify-content: 'end';
+  padding-right: '0px';
+  align-items: 'top';
+  /* Adjust the size as needed */
+  height: 118vh;
+  animation: rotate 15s linear infinite;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(30px);
+  }
+
+  to {
+    transform: rotate(-30deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes moveUp {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-10px);
+    /* Adjust the value as needed */
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

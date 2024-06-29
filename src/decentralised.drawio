@@ -1,0 +1,112 @@
+<mxfile host="app.diagrams.net" modified="2024-06-28T10:32:05.000Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="GzU78ci_9-2e3bWDlUbd" version="24.6.4" type="device">
+  <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
+    <mxGraphModel dx="1050" dy="557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1745" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#2F5B7C;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;" parent="1" source="1764" target="1749" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="300" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1746" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#2F5B7C;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770" y="504.5" as="sourcePoint" />
+            <mxPoint x="916" y="504.4999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1747" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#2F5B7C;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;exitX=0.582;exitY=0.07;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="1760" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="690" y="534.5" as="sourcePoint" />
+            <mxPoint x="690" y="543" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="690" y="650" />
+              <mxPoint x="690" y="632" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1748" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#2F5B7C;strokeWidth=3;fontFamily=Helvetica;fontSize=16;fontColor=#23445D;spacing=5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="1753" target="1749" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1749" value="If all is satisfied new DTSLA is minted" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#2F5B7C;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;align=center;fontStyle=1;spacing=5;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
+          <mxGeometry x="495" y="380.5" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="1750" value="" style="edgeStyle=none;rounded=1;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;jettySize=auto;orthogonalLoop=1;strokeColor=#E85642;strokeWidth=3;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;spacing=5;fontStyle=1;fillColor=#b0e3e6;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="179.99506493506493" y="312.75" as="sourcePoint" />
+            <mxPoint x="228.06" y="391.85833333333335" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="245.06" y="396.25" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1751" value="" style="edgeStyle=none;rounded=1;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;jettySize=auto;orthogonalLoop=1;strokeColor=#E85642;strokeWidth=3;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;spacing=5;fontStyle=1;fillColor=#b0e3e6;" parent="1" target="1753" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="164" y="425.60624999999993" as="sourcePoint" />
+            <mxPoint x="237" y="405.4" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="410" />
+              <mxPoint x="190" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1752" value="" style="edgeStyle=none;rounded=1;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;jettySize=auto;orthogonalLoop=1;strokeColor=#E85642;strokeWidth=3;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;spacing=5;fontStyle=1;fillColor=#b0e3e6;exitX=0.549;exitY=0.027;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="1754" target="1753" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="570" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="230" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1753" value="total stake amount is calculated&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#e85642;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
+          <mxGeometry x="215" y="385.5" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1754" value="Collateral Staker&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#f08e81;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
+          <mxGeometry x="65" y="504.5" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1755" value="Collateral staker&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#f08e81;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
+          <mxGeometry x="14" y="385.5" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1756" value="Collateral Staker&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#f08e81;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
+          <mxGeometry x="65" y="254.5" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1760" value="user sends a request" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#1699d3;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
+          <mxGeometry x="620" y="650.5" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1764" value="Request sent to nodes for collateral&amp;nbsp;&lt;br&gt;requirement" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#F08705;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
+          <mxGeometry x="495" y="200.5" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1765" value="User sends mint request" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#f5af58;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
+          <mxGeometry x="495" y="40" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1768" value="" style="edgeStyle=none;rounded=0;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;endArrow=classic;endFill=1;jettySize=auto;orthogonalLoop=1;strokeColor=#F08705;strokeWidth=3;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;spacing=5;" parent="1" target="1764" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="140" as="sourcePoint" />
+            <mxPoint x="570" y="112.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="570" y="100" />
+              <mxPoint x="570" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1771" value="everyone staking percentage is calculated and according to that tokens are sold from staker&#39;s account&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#12aab5;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
+          <mxGeometry x="910" y="470" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1776" value="if not the amount in account TSLA tokens are slashed and redistributed" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#61c6ce;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
+          <mxGeometry x="1169" y="460" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1777" value="" style="edgeStyle=none;rounded=1;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;jettySize=auto;orthogonalLoop=1;strokeColor=#12AAB5;strokeWidth=3;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;spacing=5;fontStyle=1;fillColor=#b0e3e6;" parent="1" source="1771" target="1776" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OpucwfsKP4gwj4N431nu-1782" value="the staked amount / total amount ratio is calculated" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OpucwfsKP4gwj4N431nu-1783" value="To redeem DTSLA" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=none;strokeWidth=3;fillColor=#2F5B7C;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;align=center;fontStyle=1;spacing=5;arcSize=7;perimeterSpacing=2;" vertex="1" parent="1">
+          <mxGeometry x="620" y="470" width="150" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
